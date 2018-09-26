@@ -1,0 +1,36 @@
+{
+  "name": "awesome",
+  "version": "0.1.0",
+  "description": "Configure awesome-wm in even more awesome way",
+  "main": "dist/awesome.cjs.js",
+  "module": "dist/awesome.esm.js",
+  "scripts": {
+    "test": "echo 'TODO'",
+    "build": "rollup -c rollup.config.ts",
+    "dev": "rollup -c rollup.config.ts -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LightDiscord/awesome-js.git"
+  },
+  "keywords": [
+    "awesome-wm"
+  ],
+  "author": "LightDiscord <root@arnaud.sh>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LightDiscord/awesome-js/issues"
+  },
+  "homepage": "https://github.com/LightDiscord/awesome-js#readme",
+  "devDependencies": {
+    "rollup": "^0.66.2",
+    "rollup-plugin-commonjs": "^9.1.8",
+    "rollup-plugin-json": "^3.1.0",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-typescript2": "^0.17.0",
+    "typescript": "^3.0.3"
+  },
+  "files": [
+    "dist"
+  ]
+}
